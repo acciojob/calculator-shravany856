@@ -1,0 +1,43 @@
+body{
+   box-sizing: border-box;
+   
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    padding: 40px;
+    padding-bottom: 60px;
+    max-width: fit-content;
+    border-radius: 24px;
+    background-color: rgb(21, 21, 48);
+}
+
+
+input{
+    width: 200px;
+    height: 30px;
+    border-color: rgb(53, 35, 35);
+    
+}
+button{
+    position: absolute;
+    margin-left: 0%;
+    margin: 6px;
+    position: relative;
+    padding: 6px;
+    width: 40px;
+    justify-content: space-between;
+    border-color: rgb(51, 40, 40);
+    background-color: rgb(27, 14, 14);
+    color: wheat;
+    
+}
+input:hover{
+    border-color: rgb(185, 168, 168);
+}
+button:hover{
+    background-color: rgb(78, 72, 72);
+}
